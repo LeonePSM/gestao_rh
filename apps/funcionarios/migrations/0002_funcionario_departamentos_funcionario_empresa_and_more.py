@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='funcionario',
             name='departamentos',
-            field=models.ManyToManyField(to='departamentos.departamento'),
+            field=models.ManyToManyField(to='departamentos.departamentos'),
         ),
         migrations.AddField(
             model_name='funcionario',
